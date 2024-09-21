@@ -1,2 +1,7 @@
-{ "commands": []
+{ "commands": [
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F5B"}, "freq": 1,
+  "signals": [
+    {"id": "BZ4X_HVBAT_SOC", "path": "Battery", "fmt": {"len": 8, "max": 100, "div": 255, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
+  ]}
+]
 }
