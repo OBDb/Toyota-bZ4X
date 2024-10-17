@@ -1,4 +1,21 @@
 { "commands": [
+{ "hdr": "745", "rax": "74D", "fcm1": true, "cmd": {"22": "1739"}, "freq": 1,
+  "signals": [
+    {"id": "BZ4X_HVBAT_SOC_ALT", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery charge (alternative)", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "747", "rax": "74F", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10,
+  "signals": [
+    {"id": "BZ4X_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "miles" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "106C"}, "freq": 5,
+  "signals": [
+    {"id": "BZ4X_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge (max)"},
+    {"id": "BZ4X_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "HV battery charge (min)"}
+  ]},
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F0D"}, "freq": 0.25,
+  "signals": [
+    {"id": "BZ4X_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1F5B"}, "freq": 1,
   "signals": [
     {"id": "BZ4X_HVBAT_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
