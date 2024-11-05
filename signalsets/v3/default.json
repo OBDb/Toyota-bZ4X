@@ -1,7 +1,7 @@
 { "commands": [
 { "hdr": "745", "rax": "74D", "fcm1": true, "cmd": {"22": "1739"}, "freq": 1,
   "signals": [
-    {"id": "BZ4X_HVBAT_SOC_ALT", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery charge (alternative)", "suggestedMetric": "stateOfCharge"}
+    {"id": "BZ4X_HVBAT_SOC_DISPLAY", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery charge (displayed)", "suggestedMetric": "stateOfCharge"}
   ]},
 { "hdr": "747", "rax": "74F", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10,
   "signals": [
