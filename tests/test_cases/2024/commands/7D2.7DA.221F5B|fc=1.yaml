@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.221F5B|fc=1
+test_cases:
+- expected_values:
+    BZ4X_HVBAT_SOC: 76.47059
+  response: 7DA04621F5BC3
+- expected_values:
+    BZ4X_HVBAT_SOC: 81.56863
+  response: 7DA04621F5BD0
