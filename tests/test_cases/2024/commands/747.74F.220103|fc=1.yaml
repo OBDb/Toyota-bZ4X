@@ -4,5 +4,5 @@ test_cases:
     BZ4X_ODO: 23907
   response: 74F0762010301005D63
 - expected_values:
-    BZ4X_ODO: 23944
-  response: 74F0762010301005D88
+    BZ4X_ODO: 23957
+  response: 74F0762010301005D95
