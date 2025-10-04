@@ -1,9 +1,9 @@
 command_id: 7D2.7DA.22106C|fc=1
 test_cases:
 - expected_values:
-    BZ4X_HVBAT_SOC_MAX: 76
-    BZ4X_HVBAT_SOC_MIN: 74
-  response: 7DA0662106C989894
+    BZ4X_HVBAT_SOC_MAX: 74
+    BZ4X_HVBAT_SOC_MIN: 72
+  response: 7DA0662106C949490
 - expected_values:
     BZ4X_HVBAT_SOC_MAX: 82
     BZ4X_HVBAT_SOC_MIN: 76.5
