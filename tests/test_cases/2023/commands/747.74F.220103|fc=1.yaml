@@ -1,0 +1,5 @@
+command_id: 747.74F.220103|fc=1
+test_cases:
+- expected_values:
+    BZ4X_ODO: 9108
+  response: 74F0762010302002394
