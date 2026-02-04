@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     BZ4X_VSS: 0
   response: 7DA04621F0D00
+- expected_values:
+    BZ4X_VSS: 11
+  response: 7DA04621F0D0B
+- expected_values:
+    BZ4X_VSS: 18
+  response: 7DA04621F0D12
+- expected_values:
+    BZ4X_VSS: 28
+  response: 7DA04621F0D1C
+- expected_values:
+    BZ4X_VSS: 30
+  response: 7DA04621F0D1E
