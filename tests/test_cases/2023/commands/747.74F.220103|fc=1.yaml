@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     BZ4X_ODO: 9108
   response: 74F0762010302002394
+- expected_values:
+    BZ4X_ODO: 9114
+  response: 74F076201030200239A
+- expected_values:
+    BZ4X_ODO: 9115
+  response: 74F076201030200239B
