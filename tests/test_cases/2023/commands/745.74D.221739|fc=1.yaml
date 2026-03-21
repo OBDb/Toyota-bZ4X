@@ -12,3 +12,12 @@ test_cases:
 - expected_values:
     BZ4X_HVBAT_SOC_DISPLAY: 91
   response: 74D046217395B
+- expected_values:
+    BZ4X_HVBAT_SOC_DISPLAY: 93
+  response: 74D046217395D
+- expected_values:
+    BZ4X_HVBAT_SOC_DISPLAY: 94
+  response: 74D046217395E
+- expected_values:
+    BZ4X_HVBAT_SOC_DISPLAY: 95
+  response: 74D046217395F
