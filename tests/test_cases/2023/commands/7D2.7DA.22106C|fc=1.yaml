@@ -1,0 +1,42 @@
+command_id: 7D2.7DA.22106C|fc=1
+test_cases:
+- expected_values:
+    BZ4X_HVBAT_SOC_MAX: 66.5
+    BZ4X_HVBAT_SOC_MIN: 64
+  response: 7DA0662106C858580
+- expected_values:
+    BZ4X_HVBAT_SOC_MAX: 66.5
+    BZ4X_HVBAT_SOC_MIN: 64.5
+  response: 7DA0662106C858581
+- expected_values:
+    BZ4X_HVBAT_SOC_MAX: 66.5
+    BZ4X_HVBAT_SOC_MIN: 65
+  response: 7DA0662106C858582
+- expected_values:
+    BZ4X_HVBAT_SOC_MAX: 68.5
+    BZ4X_HVBAT_SOC_MIN: 66.5
+  response: 7DA0662106C898985
+- expected_values:
+    BZ4X_HVBAT_SOC_MAX: 68.5
+    BZ4X_HVBAT_SOC_MIN: 67
+  response: 7DA0662106C898986
+- expected_values:
+    BZ4X_HVBAT_SOC_MAX: 68.5
+    BZ4X_HVBAT_SOC_MIN: 67.5
+  response: 7DA0662106C898987
+- expected_values:
+    BZ4X_HVBAT_SOC_MAX: 78.5
+    BZ4X_HVBAT_SOC_MIN: 78.5
+  response: 7DA0662106C9D9D9D
+- expected_values:
+    BZ4X_HVBAT_SOC_MAX: 82
+    BZ4X_HVBAT_SOC_MIN: 81
+  response: 7DA0662106CA4A4A2
+- expected_values:
+    BZ4X_HVBAT_SOC_MAX: 82
+    BZ4X_HVBAT_SOC_MIN: 81.5
+  response: 7DA0662106CA4A4A3
+- expected_values:
+    BZ4X_HVBAT_SOC_MAX: 86
+    BZ4X_HVBAT_SOC_MIN: 85.5
+  response: 7DA0662106CACACAB

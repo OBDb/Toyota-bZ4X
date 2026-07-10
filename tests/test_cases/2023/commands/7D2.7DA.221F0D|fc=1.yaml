@@ -1,0 +1,28 @@
+command_id: 7D2.7DA.221F0D|fc=1
+test_cases:
+- expected_values:
+    BZ4X_VSS: 0
+  response: 7DA04621F0D00
+- expected_values:
+    BZ4X_VSS: 82
+  response: 7DA04621F0D52
+- expected_values:
+    BZ4X_VSS: 53
+  response: |-
+    7EA03410D35
+    7DA04621F0D35
+- expected_values:
+    BZ4X_VSS: 60
+  response: |-
+    7EA03410D3D
+    7DA04621F0D3C
+- expected_values:
+    BZ4X_VSS: 0
+  response: |-
+    7EE04410C0000
+    7DA04621F0D00
+- expected_values:
+    BZ4X_VSS: 20
+  response: |-
+    7EE04411F022F
+    7DA04621F0D14
