@@ -10,7 +10,22 @@ test_cases:
     BZ4X_ODO: 27906
   response: 74F0762010302006D02
 - expected_values:
+    BZ4X_ODO: 27918
+  response: |-
+    7EA03410D21
+    74F0762010302006D0E
+- expected_values:
     BZ4X_ODO: 27913
   response: |-
     7EA03410D34
     74F0762010302006D09
+- expected_values:
+    BZ4X_ODO: 27915
+  response: |-
+    7EE04410C0000
+    74F0762010302006D0B
+- expected_values:
+    BZ4X_ODO: 27918
+  response: |-
+    7EE04410C0000
+    74F0762010302006D0E
