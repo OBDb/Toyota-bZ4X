@@ -26,3 +26,8 @@ test_cases:
   response: |-
     7EE04411F022F
     7DA04621F0D14
+- expected_values:
+    BZ4X_VSS: 31
+  response: |-
+    7EE04411F0285
+    7DA04621F0D1F
