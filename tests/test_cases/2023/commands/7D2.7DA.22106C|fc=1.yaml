@@ -20,3 +20,9 @@ test_cases:
   response: |-
     7EE03411100
     7DA0662106C7F7F7C
+- expected_values:
+    BZ4X_HVBAT_SOC_MAX: 85.5
+    BZ4X_HVBAT_SOC_MIN: 80
+  response: |-
+    7EE04411F044D
+    7DA0662106CABABA0
