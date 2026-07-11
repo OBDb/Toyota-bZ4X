@@ -14,3 +14,8 @@ test_cases:
   response: |-
     7EA03410D0D
     7DA04621F5BAB
+- expected_values:
+    BZ4X_HVBAT_SOC: 81.96078
+  response: |-
+    7EE04410C0000
+    7DA04621F5BD1
