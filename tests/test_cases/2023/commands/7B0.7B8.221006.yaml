@@ -1,0 +1,20 @@
+command_id: 7B0.7B8.221006
+test_cases:
+- expected_values:
+    BZ4X_MASTER_CYL_TEMP: 7
+  response: 7B8056210065700
+- expected_values:
+    BZ4X_MASTER_CYL_TEMP: 10
+  response: 7B8056210065A00
+- expected_values:
+    BZ4X_MASTER_CYL_TEMP: 11
+  response: 7B8056210065B00
+- expected_values:
+    BZ4X_MASTER_CYL_TEMP: 18
+  response: 7B8056210066200
+- expected_values:
+    BZ4X_MASTER_CYL_TEMP: 19
+  response: 7B8056210066300
+- expected_values:
+    BZ4X_MASTER_CYL_TEMP: 20
+  response: 7B8056210066400
