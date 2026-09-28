@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.220103|fc=1
+test_cases:
+- expected_values:
+    BZ4X_ODO_7D2: 9108
+  response: 7DA0762010302002394
+- expected_values:
+    BZ4X_ODO_7D2: 11723
+  response: 7DA0762010302002DCB

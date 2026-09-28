@@ -1,0 +1,23 @@
+command_id: 7D2.7DA.2215F8
+test_cases:
+- expected_values:
+    BZ4X_12V_T: 5.6
+  response: 7DA056215F801C8
+- expected_values:
+    BZ4X_12V_T: 12.5
+  response: 7DA056215F8020D
+- expected_values:
+    BZ4X_12V_T: 16.4
+  response: 7DA056215F80234
+- expected_values:
+    BZ4X_12V_T: 16.5
+  response: 7DA056215F80235
+- expected_values:
+    BZ4X_12V_T: 16.6
+  response: 7DA056215F80236
+- expected_values:
+    BZ4X_12V_T: 16.7
+  response: 7DA056215F80237
+- expected_values:
+    BZ4X_12V_T: 16.8
+  response: 7DA056215F80238

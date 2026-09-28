@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.22182A
+test_cases:
+- expected_values:
+    BZ4X_HVBAT_MIN_T: 5
+  response: 7DA0562182A3700
+- expected_values:
+    BZ4X_HVBAT_MIN_T: 10
+  response: 7DA0562182A3C00
+- expected_values:
+    BZ4X_HVBAT_MIN_T: 11
+  response: 7DA0562182A3D00
+- expected_values:
+    BZ4X_HVBAT_MIN_T: 14
+  response: 7DA0562182A4000
