@@ -1,0 +1,32 @@
+command_id: 7D2.7DA.221F9A
+test_cases:
+- expected_values:
+    BZ4X_HVBAT_C: 2
+    BZ4X_HVBAT_V: 381
+  response: |-
+    7DA1009621F9A0E005F
+    7DA2140001400000000
+- expected_values:
+    BZ4X_HVBAT_C: 11.1
+    BZ4X_HVBAT_V: 390
+  response: |-
+    7DA1009621F9A0E0061
+    7DA2180006F00000000
+- expected_values:
+    BZ4X_HVBAT_C: 11.9
+    BZ4X_HVBAT_V: 391
+  response: |-
+    7DA1009621F9A0E0061
+    7DA21C0007700000000
+- expected_values:
+    BZ4X_HVBAT_C: 11.1
+    BZ4X_HVBAT_V: 392
+  response: |-
+    7DA1009621F9A0E0062
+    7DA2100006F00000000
+- expected_values:
+    BZ4X_HVBAT_C: 14.4
+    BZ4X_HVBAT_V: 392
+  response: |-
+    7DA1009621F9A0E0062
+    7DA2100009000000000

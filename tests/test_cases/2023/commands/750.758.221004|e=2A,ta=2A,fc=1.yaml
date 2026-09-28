@@ -1,0 +1,42 @@
+command_id: 750.758.221004|e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    BZ4X_TT_1: 2
+    BZ4X_TT_2: 2
+    BZ4X_TT_3: 1
+    BZ4X_TT_4: 3
+  response: |-
+    7582A10086210042A2A
+    7582A21292B00000000
+- expected_values:
+    BZ4X_TT_1: 4
+    BZ4X_TT_2: 5
+    BZ4X_TT_3: 5
+    BZ4X_TT_4: 6
+  response: |-
+    7582A10086210042C2D
+    7582A212D2E00000000
+- expected_values:
+    BZ4X_TT_1: 4
+    BZ4X_TT_2: 5
+    BZ4X_TT_3: 6
+    BZ4X_TT_4: 6
+  response: |-
+    7582A10086210042C2D
+    7582A212E2E00000000
+- expected_values:
+    BZ4X_TT_1: 18
+    BZ4X_TT_2: 18
+    BZ4X_TT_3: 17
+    BZ4X_TT_4: 22
+  response: |-
+    7582A10086210043A3A
+    7582A21393E00000000
+- expected_values:
+    BZ4X_TT_1: 18
+    BZ4X_TT_2: 19
+    BZ4X_TT_3: 17
+    BZ4X_TT_4: 22
+  response: |-
+    7582A10086210043A3B
+    7582A21393E00000000

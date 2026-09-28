@@ -1,0 +1,11 @@
+command_id: 7D2.7DA.221829
+test_cases:
+- expected_values:
+    BZ4X_HVBAT_MAX_T: 6
+  response: 7DA056218293800
+- expected_values:
+    BZ4X_HVBAT_MAX_T: 13
+  response: 7DA056218293F00
+- expected_values:
+    BZ4X_HVBAT_MAX_T: 16
+  response: 7DA056218294200
