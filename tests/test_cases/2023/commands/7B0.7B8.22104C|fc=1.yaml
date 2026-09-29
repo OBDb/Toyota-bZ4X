@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     BZ4X_BRAKE_STROKE: 15
   response: 7B80462104C0F
+- expected_values:
+    BZ4X_BRAKE_STROKE: 35
+  response: 7B80462104C23
