@@ -1,0 +1,5 @@
+command_id: 7C4.7CC.221001|fc=1
+test_cases:
+- expected_values:
+    BZ4X_CABIN_T: 23.02
+  response: 7CC0562100108FE

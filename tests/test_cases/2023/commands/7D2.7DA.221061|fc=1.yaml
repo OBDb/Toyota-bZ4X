@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.221061|fc=1
+test_cases:
+- expected_values:
+    BZ4X_SHIFT: R
+  response: 7DA056210610202
+- expected_values:
+    BZ4X_SHIFT: D
+  response: 7DA056210610608

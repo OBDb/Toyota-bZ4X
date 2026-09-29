@@ -1,0 +1,14 @@
+command_id: 745.74D.2210D4|fc=1
+test_cases:
+- expected_values:
+    BZ4X_CHG_P: -49.53
+  response: 74D056210D46CA7
+- expected_values:
+    BZ4X_CHG_P: 0
+  response: 74D056210D48000
+- expected_values:
+    BZ4X_CHG_P: 2.51
+  response: 74D056210D480FB
+- expected_values:
+    BZ4X_CHG_P: 12.14
+  response: 74D056210D484BE

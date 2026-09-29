@@ -1,0 +1,8 @@
+command_id: 745.74D.2210D1|fc=1
+test_cases:
+- expected_values:
+    BZ4X_CTRL_MODE: NONE
+  response: 74D046210D100
+- expected_values:
+    BZ4X_CTRL_MODE: DRIVING
+  response: 74D046210D101
