@@ -1,5 +1,8 @@
 command_id: 745.74D.2216A1|fc=1
 test_cases:
 - expected_values:
+    BZ4X_CHG_P_PERMIT: -42.72
+  response: 74D056216A1EF50
+- expected_values:
     BZ4X_CHG_P_PERMIT: -34.66
   response: 74D056216A1F276

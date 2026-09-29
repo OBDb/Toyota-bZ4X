@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     BZ4X_CABIN_T: 23.02
   response: 7CC0562100108FE
+- expected_values:
+    BZ4X_CABIN_T: 27.29
+  response: 7CC056210010AA9

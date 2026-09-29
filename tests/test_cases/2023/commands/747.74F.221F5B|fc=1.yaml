@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     BZ4X_SOC_747: 78.82353
   response: 74F04621F5BC9
+- expected_values:
+    BZ4X_SOC_747: 86.27451
+  response: 74F04621F5BDC

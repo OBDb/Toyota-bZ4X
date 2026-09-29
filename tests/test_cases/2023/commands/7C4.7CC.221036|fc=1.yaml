@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     BZ4X_HVAC_SET_RAW: 37
   response: 7CC0462103625
+- expected_values:
+    BZ4X_HVAC_SET_RAW: 41
+  response: 7CC0462103629
