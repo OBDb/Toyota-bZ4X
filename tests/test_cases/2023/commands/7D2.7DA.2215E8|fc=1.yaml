@@ -1,6 +1,14 @@
 command_id: 7D2.7DA.2215E8|fc=1
 test_cases:
 - expected_values:
+    BZ4X_12V_AH_IN: 3354.2
+    BZ4X_12V_AH_OUT: 480.3
+    BZ4X_READY_HOURS: 210
+  response: |-
+    7DA10146215E8000083
+    7DA2106000012C38181
+    7DA2200D20000306740
+- expected_values:
     BZ4X_12V_AH_IN: 3721.9
     BZ4X_12V_AH_OUT: 139.5
     BZ4X_READY_HOURS: 196

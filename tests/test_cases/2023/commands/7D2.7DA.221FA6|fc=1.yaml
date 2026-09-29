@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     BZ4X_ODO_1FA6: 49017.1
   response: 7DA07621FA600077ABB
+- expected_values:
+    BZ4X_ODO_1FA6: 111002.3
+  response: 7DA07621FA60010F007
