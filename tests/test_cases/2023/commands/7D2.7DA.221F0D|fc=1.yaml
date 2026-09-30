@@ -12,11 +12,6 @@ test_cases:
     7EA03410D00
     7DA04621F0D00
 - expected_values:
-    BZ4X_VSS: 62
-  response: |-
-    7EA03410D3E
-    7DA04621F0D3E
-- expected_values:
     BZ4X_VSS: 107
   response: |-
     7EA03410D6B
@@ -31,6 +26,11 @@ test_cases:
   response: |-
     7EA0441311E48
     7DA04621F0D43
+- expected_values:
+    BZ4X_VSS: 95
+  response: |-
+    7EB03410D5F
+    7DA04621F0D5F
 - expected_values:
     BZ4X_VSS: 6
   response: |-
@@ -56,3 +56,8 @@ test_cases:
   response: |-
     7EE04411F0285
     7DA04621F0D1F
+- expected_values:
+    BZ4X_VSS: 92
+  response: |-
+    7EE04411F0C2F
+    7DA04621F0D5C
