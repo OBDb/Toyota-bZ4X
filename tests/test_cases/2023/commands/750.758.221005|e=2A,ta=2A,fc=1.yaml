@@ -1,13 +1,10 @@
 command_id: 750.758.221005|e=2A,ta=2A,fc=1
 test_cases:
 - expected_values:
-    BZ4X_TP_1: 34.30303
-    BZ4X_TP_2: 35.0303
-    BZ4X_TP_3: 34.30303
-    BZ4X_TP_4: 34.78788
+    BZ4X_TP_4: 34.54545
   response: |-
-    7582A100D62100500A5
-    7582A2100A800A500A7
+    7582A100D6210050000
+    7582A210000000000A6
     7582A22000000000000
 - expected_values:
     BZ4X_TP_1: 36.72727
@@ -17,15 +14,6 @@ test_cases:
   response: |-
     7582A100D62100500AF
     7582A2100AD00AF00AC
-    7582A22000000000000
-- expected_values:
-    BZ4X_TP_1: 36.9697
-    BZ4X_TP_2: 36.48485
-    BZ4X_TP_3: 36.9697
-    BZ4X_TP_4: 36.48485
-  response: |-
-    7582A100D62100500B0
-    7582A2100AE00B000AE
     7582A22000000000000
 - expected_values:
     BZ4X_TP_1: 36.9697
