@@ -25,15 +25,15 @@ test_cases:
     7EA03410D69
     74F0762010302007704
 - expected_values:
+    BZ4X_ODO: 30624
+  response: |-
+    7EA03410D7A
+    74F07620103020077A0
+- expected_values:
     BZ4X_ODO: 30497
   response: |-
     7EA0441210000
     74F0762010302007721
-- expected_values:
-    BZ4X_ODO: 30528
-  response: |-
-    7EB03410D00
-    74F0762010302007740
 - expected_values:
     BZ4X_ODO: 30527
   response: |-
@@ -50,20 +50,15 @@ test_cases:
     7EE03410400
     74F0762010302007711
 - expected_values:
-    BZ4X_ODO: 30470
+    BZ4X_ODO: 30623
   response: |-
-    7EE03410F28
-    74F0762010302007706
+    7EE03411100
+    74F076201030200779F
 - expected_values:
     BZ4X_ODO: 27915
   response: |-
     7EE04410C0000
     74F0762010302006D0B
-- expected_values:
-    BZ4X_ODO: 27918
-  response: |-
-    7EE04410C0000
-    74F0762010302006D0E
 - expected_values:
     BZ4X_ODO: 27940
   response: |-
@@ -74,6 +69,16 @@ test_cases:
   response: |-
     7EE04410C0000
     74F0762010302007716
+- expected_values:
+    BZ4X_ODO: 30639
+  response: |-
+    7EE04411F0B13
+    74F07620103020077AF
+- expected_values:
+    BZ4X_ODO: 30629
+  response: |-
+    7EE0441312ECE
+    74F07620103020077A5
 - expected_values:
     BZ4X_ODO: 27923
   response: |-
