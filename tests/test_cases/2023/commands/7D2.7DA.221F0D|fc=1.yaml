@@ -67,10 +67,10 @@ test_cases:
     7EE04410C0000
     7DA04621F0D3F
 - expected_values:
-    BZ4X_VSS: 42
+    BZ4X_VSS: 4
   response: |-
-    7EE04411F00CB
-    7DA04621F0D2A
+    7EE04411F09DF
+    7DA04621F0D04
 - expected_values:
     BZ4X_VSS: 92
   response: |-
