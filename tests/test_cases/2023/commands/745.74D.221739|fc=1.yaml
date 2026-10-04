@@ -7,8 +7,8 @@ test_cases:
     BZ4X_HVBAT_SOC_DISPLAY: 83
   response: 74D0462173953
 - expected_values:
-    BZ4X_HVBAT_SOC_DISPLAY: 95
-  response: 74D046217395F
+    BZ4X_HVBAT_SOC_DISPLAY: 98
+  response: 74D0462173962
 - expected_values:
     BZ4X_HVBAT_SOC_DISPLAY: 52
   response: |-
