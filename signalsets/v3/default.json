@@ -116,7 +116,7 @@
   "signals": [
     {"id": "BZ4X_SOC_745", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "State of charge, charging control"}
   ]},
-{ "hdr": "745", "rax": "74D", "fcm1": true, "cmd": {"22": "1739"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2025 },
+{ "hdr": "745", "rax": "74D", "fcm1": true, "cmd": {"22": "1739"}, "freq": 1, "dbgfilter": { "from": 2025 },
   "signals": [
     {"id": "BZ4X_HVBAT_SOC_DISPLAY", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery charge (displayed)", "suggestedMetric": "stateOfCharge"}
   ]},
