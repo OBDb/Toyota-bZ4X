@@ -1,0 +1,20 @@
+command_id: 747.74F.220103|fc=1
+test_cases:
+- expected_values:
+    BZ4X_ODO: 10166
+  response: 74F07620103020027B6
+- expected_values:
+    BZ4X_ODO: 10167
+  response: 74F07620103020027B7
+- expected_values:
+    BZ4X_ODO: 10168
+  response: 74F07620103020027B8
+- expected_values:
+    BZ4X_ODO: 10169
+  response: 74F07620103020027B9
+- expected_values:
+    BZ4X_ODO: 10170
+  response: 74F07620103020027BA
+- expected_values:
+    BZ4X_ODO: 10171
+  response: 74F07620103020027BB

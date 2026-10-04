@@ -1,5 +1,14 @@
 command_id: 745.74D.221739|fc=1
 test_cases:
 - expected_values:
+    BZ4X_HVBAT_SOC_DISPLAY: 74
+  response: 74D046217394A
+- expected_values:
+    BZ4X_HVBAT_SOC_DISPLAY: 75
+  response: 74D046217394B
+- expected_values:
+    BZ4X_HVBAT_SOC_DISPLAY: 76
+  response: 74D046217394C
+- expected_values:
     BZ4X_HVBAT_SOC_DISPLAY: 77
   response: 74D046217394D
