@@ -1,0 +1,10 @@
+command_id: 747.74F.221D3E|fc=1
+test_cases:
+- expected_values:
+    BZ4X_CAP_1: 186.92
+    BZ4X_CAP_2: 186.91
+    BZ4X_CAP_3: 186.97
+    BZ4X_CAP_4: 186.88
+  response: |-
+    74F100B621D3E490449
+    74F2103490949000000

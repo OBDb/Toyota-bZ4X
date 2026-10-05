@@ -1,0 +1,32 @@
+command_id: 7D2.7DA.221060|fc=1
+test_cases:
+- expected_values:
+    BZ4X_APP: 0
+  response: 7DA0462106000
+- expected_values:
+    BZ4X_APP: 5
+  response: 7DA046210600A
+- expected_values:
+    BZ4X_APP: 11.5
+  response: 7DA0462106017
+- expected_values:
+    BZ4X_APP: 20.5
+  response: 7DA0462106029
+- expected_values:
+    BZ4X_APP: 22
+  response: 7DA046210602C
+- expected_values:
+    BZ4X_APP: 22.5
+  response: 7DA046210602D
+- expected_values:
+    BZ4X_APP: 23.5
+  response: 7DA046210602F
+- expected_values:
+    BZ4X_APP: 35.5
+  response: 7DA0462106047
+- expected_values:
+    BZ4X_APP: 38.5
+  response: 7DA046210604D
+- expected_values:
+    BZ4X_APP: 53
+  response: 7DA046210606A

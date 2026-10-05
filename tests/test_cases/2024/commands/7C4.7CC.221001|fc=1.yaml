@@ -1,0 +1,29 @@
+command_id: 7C4.7CC.221001|fc=1
+test_cases:
+- expected_values:
+    BZ4X_CABIN_T: 17.31
+  response: 7CC0562100106C3
+- expected_values:
+    BZ4X_CABIN_T: 17.48
+  response: 7CC0562100106D4
+- expected_values:
+    BZ4X_CABIN_T: 17.7
+  response: 7CC0562100106EA
+- expected_values:
+    BZ4X_CABIN_T: 18.37
+  response: 7CC05621001072D
+- expected_values:
+    BZ4X_CABIN_T: 18.39
+  response: 7CC05621001072F
+- expected_values:
+    BZ4X_CABIN_T: 18.41
+  response: 7CC056210010731
+- expected_values:
+    BZ4X_CABIN_T: 18.48
+  response: 7CC056210010738
+- expected_values:
+    BZ4X_CABIN_T: 18.49
+  response: 7CC056210010739
+- expected_values:
+    BZ4X_CABIN_T: 18.55
+  response: 7CC05621001073F
