@@ -1,0 +1,32 @@
+command_id: 745.74D.2210D4|fc=1
+test_cases:
+- expected_values:
+    BZ4X_CHG_P: -1.27
+  response: 74D056210D47F81
+- expected_values:
+    BZ4X_CHG_P: -1.01
+  response: 74D056210D47F9B
+- expected_values:
+    BZ4X_CHG_P: -0.97
+  response: 74D056210D47F9F
+- expected_values:
+    BZ4X_CHG_P: -0.93
+  response: 74D056210D47FA3
+- expected_values:
+    BZ4X_CHG_P: -0.78
+  response: 74D056210D47FB2
+- expected_values:
+    BZ4X_CHG_P: -0.74
+  response: 74D056210D47FB6
+- expected_values:
+    BZ4X_CHG_P: -0.71
+  response: 74D056210D47FB9
+- expected_values:
+    BZ4X_CHG_P: -0.63
+  response: 74D056210D47FC1
+- expected_values:
+    BZ4X_CHG_P: -0.59
+  response: 74D056210D47FC5
+- expected_values:
+    BZ4X_CHG_P: -0.29
+  response: 74D056210D47FE3

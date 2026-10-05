@@ -1,0 +1,14 @@
+command_id: 7D2.7DA.2210A1
+test_cases:
+- expected_values:
+    BZ4X_RPM: 0
+    BZ4X_TQ: -0.125
+  response: |-
+    7DA100C6210A1800080
+    7DA210002007FFF0400
+- expected_values:
+    BZ4X_RPM: 0
+    BZ4X_TQ: 0
+  response: |-
+    7DA100C6210A1800080
+    7DA2100020080000400

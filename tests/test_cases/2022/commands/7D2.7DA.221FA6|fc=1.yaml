@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.221FA6|fc=1
+test_cases:
+- expected_values:
+    BZ4X_ODO_1FA6: 16369.9
+  response: 7DA07621FA600027F73
