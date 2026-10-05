@@ -1,0 +1,5 @@
+command_id: 747.74F.221F5B|fc=1
+test_cases:
+- expected_values:
+    BZ4X_SOC_747: 71.76471
+  response: 74F04621F5BB7

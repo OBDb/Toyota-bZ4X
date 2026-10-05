@@ -1,0 +1,23 @@
+command_id: 745.74D.22106E|fc=1
+test_cases:
+- expected_values:
+    BZ4X_HVAC_P_745: 0
+  response: 74D0462106E00
+- expected_values:
+    BZ4X_HVAC_P_745: 0.3
+  response: 74D0462106E06
+- expected_values:
+    BZ4X_HVAC_P_745: 0.35
+  response: 74D0462106E07
+- expected_values:
+    BZ4X_HVAC_P_745: 0.45
+  response: 74D0462106E09
+- expected_values:
+    BZ4X_HVAC_P_745: 0.5
+  response: 74D0462106E0A
+- expected_values:
+    BZ4X_HVAC_P_745: 0.75
+  response: 74D0462106E0F
+- expected_values:
+    BZ4X_HVAC_P_745: 0.85
+  response: 74D0462106E11

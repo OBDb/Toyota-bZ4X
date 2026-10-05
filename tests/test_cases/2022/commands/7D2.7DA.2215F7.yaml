@@ -1,0 +1,11 @@
+command_id: 7D2.7DA.2215F7
+test_cases:
+- expected_values:
+    BZ4X_12V_C: 2.30798
+  response: 7DA056215F7825D
+- expected_values:
+    BZ4X_12V_C: 2.90308
+  response: 7DA056215F782F9
+- expected_values:
+    BZ4X_12V_C: 3.90634
+  response: 7DA056215F78400
