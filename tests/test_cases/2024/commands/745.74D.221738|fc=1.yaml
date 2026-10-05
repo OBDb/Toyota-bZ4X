@@ -1,0 +1,11 @@
+command_id: 745.74D.221738|fc=1
+test_cases:
+- expected_values:
+    BZ4X_SOC_745: 66
+  response: 74D0462173842
+- expected_values:
+    BZ4X_SOC_745: 67
+  response: 74D0462173843
+- expected_values:
+    BZ4X_SOC_745: 68
+  response: 74D0462173844

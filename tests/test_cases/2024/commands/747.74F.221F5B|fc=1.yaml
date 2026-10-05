@@ -1,0 +1,17 @@
+command_id: 747.74F.221F5B|fc=1
+test_cases:
+- expected_values:
+    BZ4X_SOC_747: 62.7451
+  response: 74F04621F5BA0
+- expected_values:
+    BZ4X_SOC_747: 63.13725
+  response: 74F04621F5BA1
+- expected_values:
+    BZ4X_SOC_747: 63.52941
+  response: 74F04621F5BA2
+- expected_values:
+    BZ4X_SOC_747: 63.92157
+  response: 74F04621F5BA3
+- expected_values:
+    BZ4X_SOC_747: 64.31373
+  response: 74F04621F5BA4
