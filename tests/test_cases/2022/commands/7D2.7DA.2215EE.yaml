@@ -4,8 +4,8 @@ test_cases:
     BZ4X_12V_V: 13.84962
   response: 7DA056215EE2C6C
 - expected_values:
-    BZ4X_12V_V: 13.84962
-  response: 7DA056215EE2C8A
-- expected_values:
     BZ4X_12V_V: 14.1641
   response: 7DA056215EE2D1C
+- expected_values:
+    BZ4X_12V_V: 14.1641
+  response: 7DA056215EE2DF0
