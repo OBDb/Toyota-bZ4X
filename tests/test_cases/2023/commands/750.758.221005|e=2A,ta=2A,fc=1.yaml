@@ -22,6 +22,13 @@ test_cases:
     7582A21000000A70000
     7582A22000000000000
 - expected_values:
+    BZ4X_TP_2: 36.72727
+    BZ4X_TP_3: 37.69697
+  response: |-
+    7582A100D6210050000
+    7582A2100AF00B30000
+    7582A22000000000000
+- expected_values:
     BZ4X_TP_1: 36.48485
     BZ4X_TP_3: 36.72727
   response: |-
@@ -35,15 +42,6 @@ test_cases:
   response: |-
     7582A100D62100500B0
     7582A21000000B100AF
-    7582A22000000000000
-- expected_values:
-    BZ4X_TP_1: 36.9697
-    BZ4X_TP_2: 36.72727
-    BZ4X_TP_3: 36.9697
-    BZ4X_TP_4: 36.48485
-  response: |-
-    7582A100D62100500B0
-    7582A2100AF00B000AE
     7582A22000000000000
 - expected_values:
     BZ4X_TP_1: 40.60606
