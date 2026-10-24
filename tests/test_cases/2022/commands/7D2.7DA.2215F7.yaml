@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     BZ4X_12V_C: 3.90634
   response: 7DA056215F78400
+- expected_values:
+    BZ4X_12V_C: 8.82349
+  response: 7DA056215F78909
