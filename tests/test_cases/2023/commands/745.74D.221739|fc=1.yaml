@@ -1,8 +1,8 @@
 command_id: 745.74D.221739|fc=1
 test_cases:
 - expected_values:
-    BZ4X_HVBAT_SOC_DISPLAY: 29
-  response: 74D046217391D
+    BZ4X_HVBAT_SOC_DISPLAY: 0
+  response: 74D0462173900
 - expected_values:
     BZ4X_HVBAT_SOC_DISPLAY: 83
   response: 74D0462173953
@@ -35,10 +35,10 @@ test_cases:
     7EA03410D79
     74D0462173929
 - expected_values:
-    BZ4X_HVBAT_SOC_DISPLAY: 56
+    BZ4X_HVBAT_SOC_DISPLAY: 64
   response: |-
-    7EA0341463C
-    74D0462173938
+    7EA03415108
+    74D0462173940
 - expected_values:
     BZ4X_HVBAT_SOC_DISPLAY: 77
   response: |-
@@ -64,11 +64,6 @@ test_cases:
   response: |-
     7EB024300
     74D046217393A
-- expected_values:
-    BZ4X_HVBAT_SOC_DISPLAY: 48
-  response: |-
-    7EB03410D00
-    74D0462173930
 - expected_values:
     BZ4X_HVBAT_SOC_DISPLAY: 70
   response: |-
@@ -115,7 +110,7 @@ test_cases:
     7EE04411F02F4
     74D0462173940
 - expected_values:
-    BZ4X_HVBAT_SOC_DISPLAY: 68
+    BZ4X_HVBAT_SOC_DISPLAY: 64
   response: |-
-    7EE21FF4A0000000000
-    74D0462173944
+    7EE21002A0000000000
+    74D0462173940
