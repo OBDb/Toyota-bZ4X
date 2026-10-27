@@ -47,6 +47,11 @@ test_cases:
     7EA0641A60007827C
     7DA04621F0D00
 - expected_values:
+    BZ4X_VSS: 66
+  response: |-
+    7EA0641A6000797CC
+    7DA04621F0D42
+- expected_values:
     BZ4X_VSS: 55
   response: |-
     7EA2100DD0000000000
