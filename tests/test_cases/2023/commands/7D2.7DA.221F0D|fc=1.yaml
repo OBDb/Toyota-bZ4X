@@ -52,15 +52,15 @@ test_cases:
     7EA0641A6000797CC
     7DA04621F0D42
 - expected_values:
+    BZ4X_VSS: 0
+  response: |-
+    7EA21002A0000000000
+    7DA04621F0D00
+- expected_values:
     BZ4X_VSS: 55
   response: |-
     7EA2100DD0000000000
     7DA04621F0D37
-- expected_values:
-    BZ4X_VSS: 54
-  response: |-
-    7EA2103480000000000
-    7DA04621F0D36
 - expected_values:
     BZ4X_VSS: 121
   response: |-
@@ -101,6 +101,11 @@ test_cases:
   response: |-
     7EE04411F134F
     7DA04621F0D7F
+- expected_values:
+    BZ4X_VSS: 0
+  response: |-
+    7EE21002A0000000000
+    7DA04621F0D00
 - expected_values:
     BZ4X_VSS: 107
   response: |-
