@@ -104,10 +104,15 @@ test_cases:
 - expected_values:
     BZ4X_VSS: 0
   response: |-
-    7EE21002A0000000000
+    7EE2100220000000000
     7DA04621F0D00
 - expected_values:
     BZ4X_VSS: 107
   response: |-
     7EE2104620000000000
     7DA04621F0D6B
+- expected_values:
+    BZ4X_VSS: 67
+  response: |-
+    7EE21FEC30000000000
+    7DA04621F0D43
