@@ -7,8 +7,8 @@ test_cases:
     BZ4X_HVBAT_SOC_DISPLAY: 83
   response: 74D0462173953
 - expected_values:
-    BZ4X_HVBAT_SOC_DISPLAY: 98
-  response: 74D0462173962
+    BZ4X_HVBAT_SOC_DISPLAY: 99
+  response: 74D0462173963
 - expected_values:
     BZ4X_HVBAT_SOC_DISPLAY: 39
   response: |-
@@ -20,10 +20,10 @@ test_cases:
     7EA03410D00
     74D046217393F
 - expected_values:
-    BZ4X_HVBAT_SOC_DISPLAY: 87
+    BZ4X_HVBAT_SOC_DISPLAY: 99
   response: |-
-    7EA03410D08
-    74D0462173957
+    7EA03410D00
+    74D0462173963
 - expected_values:
     BZ4X_HVBAT_SOC_DISPLAY: 30
   response: |-
@@ -110,15 +110,15 @@ test_cases:
     7EE04410C0000
     74D0462173930
 - expected_values:
-    BZ4X_HVBAT_SOC_DISPLAY: 82
-  response: |-
-    7EE04410C0000
-    74D0462173952
-- expected_values:
     BZ4X_HVBAT_SOC_DISPLAY: 64
   response: |-
     7EE04411F02F4
     74D0462173940
+- expected_values:
+    BZ4X_HVBAT_SOC_DISPLAY: 98
+  response: |-
+    7EE04411F0390
+    74D0462173962
 - expected_values:
     BZ4X_HVBAT_SOC_DISPLAY: 39
   response: |-
