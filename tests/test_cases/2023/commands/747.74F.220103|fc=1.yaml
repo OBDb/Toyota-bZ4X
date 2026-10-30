@@ -10,8 +10,8 @@ test_cases:
     BZ4X_ODO: 30719
   response: 74F07620103020077FF
 - expected_values:
-    BZ4X_ODO: 30720
-  response: 74F0762010302007800
+    BZ4X_ODO: 30976
+  response: 74F0762010302007900
 - expected_values:
     BZ4X_ODO: 27940
   response: |-
