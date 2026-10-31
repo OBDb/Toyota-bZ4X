@@ -85,6 +85,11 @@ test_cases:
     7EB03415B60
     74D0462173923
 - expected_values:
+    BZ4X_HVBAT_SOC_DISPLAY: 95
+  response: |-
+    7EB2105EE0000000000
+    74D046217395F
+- expected_values:
     BZ4X_HVBAT_SOC_DISPLAY: 55
   response: |-
     7EB21FFF50000000000
@@ -124,8 +129,3 @@ test_cases:
   response: |-
     7EE2100090000000000
     74D0462173927
-- expected_values:
-    BZ4X_HVBAT_SOC_DISPLAY: 47
-  response: |-
-    7EE2102270000000000
-    74D046217392F
