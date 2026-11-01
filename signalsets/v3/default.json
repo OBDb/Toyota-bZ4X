@@ -228,7 +228,7 @@
   "signals": [
     {"id": "BZ4X_ODO_7D2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
     {"id": "BZ4X_DRIVE_MODE", "path": "Drivetrain", "name": "Drive mode", "fmt": {"len": 8, "map": {
           "0":  { "description": "Normal",    "value": "NORMAL" },
