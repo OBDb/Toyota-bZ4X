@@ -191,6 +191,9 @@ test_cases:
     7DF020104
     7EE03410400
 - expected_values:
+    BZ4X_ODO_7D2: 31819
+  response: 7DA0762010302007C4B
+- expected_values:
     BZ4X_ODO_7D2: 31754
   response: |-
     7EB03410D3C
