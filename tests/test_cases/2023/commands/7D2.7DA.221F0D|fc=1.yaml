@@ -29,6 +29,16 @@ test_cases:
     BZ4X_VSS: 0
   response: |-
     7DA04621F0D00
+    7DF02010C
+    7EE04410C0000
+    7DF02011F
+    7EE04411F00D0
+    7DF020111
+    7EE03411100
+- expected_values:
+    BZ4X_VSS: 0
+  response: |-
+    7DA04621F0D00
     7DF02010D
     7EE03410D00
     7EB03410D00
@@ -74,6 +84,20 @@ test_cases:
     BZ4X_VSS: 10
   response: |-
     7DA04621F0D0A
+    7DF02010C
+    7EE04410C0000
+- expected_values:
+    BZ4X_VSS: 14
+  response: |-
+    7DA04621F0D0E
+    7DF020111
+    7EE03411100
+    7DF02010C
+    7EE04410C0000
+    7DF02011F
+    7EE04411F01C8
+    7DF020104
+    7EE03410400
     7DF02010C
     7EE04410C0000
 - expected_values:
@@ -651,6 +675,11 @@ test_cases:
     7EB03410D5B
     7DF02010C
     7EE04410C0000
+- expected_values:
+    BZ4X_VSS: 27
+  response: |-
+    7E3300000
+    7DA04621F0D1B
 - expected_values:
     BZ4X_VSS: 0
   response: |-
