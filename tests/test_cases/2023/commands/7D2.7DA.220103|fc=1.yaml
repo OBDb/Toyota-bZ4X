@@ -4,9 +4,6 @@ test_cases:
     BZ4X_ODO_7D2: 9108
   response: 7DA0762010302002394
 - expected_values:
-    BZ4X_ODO_7D2: 11723
-  response: 7DA0762010302002DCB
-- expected_values:
     BZ4X_ODO_7D2: 31718
   response: |-
     7DA0762010302007BE6
@@ -291,6 +288,14 @@ test_cases:
     7EE03410D41
     7EB03410D41
     7EA03410D41
+- expected_values:
+    BZ4X_ODO_7D2: 31971
+  response: 7DA0762010302007CE3
+- expected_values:
+    BZ4X_ODO_7D2: 31985
+  response: |-
+    7EA03410D00
+    7DA0762010302007CF1
 - expected_values:
     BZ4X_ODO_7D2: 31754
   response: |-
