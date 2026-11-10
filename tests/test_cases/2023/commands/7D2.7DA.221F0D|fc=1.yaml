@@ -1527,6 +1527,23 @@ test_cases:
     7EA03410D00
     7DA04621F0D00
 - expected_values:
+    BZ4X_VSS: 18
+  response: |-
+    7EA03410D12
+    7DA04621F0D12
+    7DF02010F
+    7EE03410F28
+    7DF02010B
+    7DF020187
+    7DF02010C
+    7EE04410C0000
+    7DF020105
+    7EE03410528
+    7DF02011F
+    7EE04411F0083
+    7DF020111
+    7EE03411100
+- expected_values:
     BZ4X_VSS: 31
   response: |-
     7EA03410D1F
