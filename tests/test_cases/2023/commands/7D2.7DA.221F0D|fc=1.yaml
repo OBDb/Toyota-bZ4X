@@ -868,6 +868,12 @@ test_cases:
     BZ4X_VSS: 58
   response: |-
     7DA04621F0D3A
+    7DF020104
+    7EE03410400
+- expected_values:
+    BZ4X_VSS: 58
+  response: |-
+    7DA04621F0D3A
     7DF02010D
     7EE03410D3A
     7EA03410D3A
