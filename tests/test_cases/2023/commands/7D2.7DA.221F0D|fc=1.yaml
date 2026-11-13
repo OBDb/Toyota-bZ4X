@@ -1659,6 +1659,19 @@ test_cases:
     7EA03410D1F
     7DA04621F0D1F
 - expected_values:
+    BZ4X_VSS: 39
+  response: |-
+    7EA03410D27
+    7DA04621F0D27
+    7DF02010C
+    7EE04410C0000
+    7DF020111
+    7EE03411100
+    7DF02010C
+    7EE04410C0000
+    7DF020104
+    7EE03410400
+- expected_values:
     BZ4X_VSS: 45
   response: |-
     7EA03410D2D
@@ -1711,10 +1724,10 @@ test_cases:
     7EA03410D70
     7DA04621F0D70
 - expected_values:
-    BZ4X_VSS: 10
+    BZ4X_VSS: 0
   response: |-
-    7EA0341463E
-    7DA04621F0D0A
+    7EA03415BCA
+    7DA04621F0D00
 - expected_values:
     BZ4X_VSS: 51
   response: |-
@@ -1840,11 +1853,6 @@ test_cases:
     7EE03410D71
     7EB03410D71
     7EA03410D71
-- expected_values:
-    BZ4X_VSS: 123
-  response: |-
-    7EB03410D7B
-    7DA04621F0D7B
 - expected_values:
     BZ4X_VSS: 6
   response: |-
