@@ -87,6 +87,11 @@ test_cases:
 - expected_values:
     BZ4X_SHIFT: D
   response: |-
+    7EB03410D00
+    7DA056210610608
+- expected_values:
+    BZ4X_SHIFT: D
+  response: |-
     7EB03410D37
     7DA056210610608
 - expected_values:
