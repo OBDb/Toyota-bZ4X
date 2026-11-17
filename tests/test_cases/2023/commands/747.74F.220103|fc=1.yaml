@@ -83,10 +83,10 @@ test_cases:
     7EE03410400
     74F0762010302007711
 - expected_values:
-    BZ4X_ODO: 32146
+    BZ4X_ODO: 32189
   response: |-
-    7EE03411100
-    74F0762010302007D92
+    7EE03410400
+    74F0762010302007DBD
 - expected_values:
     BZ4X_ODO: 27915
   response: |-
