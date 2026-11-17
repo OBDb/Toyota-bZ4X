@@ -1,8 +1,10 @@
 command_id: 747.74F.220103|fc=1
 test_cases:
 - expected_values:
-    BZ4X_ODO: 23907
+    BZ4X_ODO_RAW: 23907
+    BZ4X_ODO_UNIT: KM
   response: 74F0762010301005D63
 - expected_values:
-    BZ4X_ODO: 23957
+    BZ4X_ODO_RAW: 23957
+    BZ4X_ODO_UNIT: KM
   response: 74F0762010301005D95

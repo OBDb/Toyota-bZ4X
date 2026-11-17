@@ -122,7 +122,12 @@
   ]},
 { "hdr": "747", "rax": "74F", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "dbgfilter": { "from": 2025 },
   "signals": [
-    {"id": "BZ4X_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "BZ4X_ODO_RAW", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Odometer, in the cluster's unit"},
+    {"id": "BZ4X_ODO_UNIT", "path": "Trips", "name": "Odometer unit", "fmt": {"len": 8, "map": {
+          "1": { "description": "Kilometers", "value": "KM" },
+          "2": { "description": "Miles",      "value": "MI" }
+        }}
+    }
   ]},
 { "hdr": "747", "rax": "74F", "fcm1": true, "cmd": {"22": "182E"}, "freq": 1, "dbgfilter": { "from": 2025 },
   "signals": [
@@ -226,7 +231,12 @@
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "dbgfilter": { "from": 2025 },
   "signals": [
-    {"id": "BZ4X_ODO_7D2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "BZ4X_ODO_7D2_RAW", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Odometer, in the cluster's unit"},
+    {"id": "BZ4X_ODO_7D2_UNIT", "path": "Trips", "name": "Odometer unit", "fmt": {"len": 8, "map": {
+          "1": { "description": "Kilometers", "value": "KM" },
+          "2": { "description": "Miles",      "value": "MI" }
+        }}
+    }
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2025 },
   "signals": [
@@ -381,5 +391,13 @@
 ],
 "signalGroups": [
   {"id": "BZ4X_HVBAT_CMU_VOLT", "path": "Battery.Modules", "matchingRegex": "BZ4X_HVBAT_(CMU\\d+)_VOLT", "name": "HV battery pack voltage", "suggestedMetricGroup": "batteryModulesVoltage"}
+],
+"synthetics": [
+  { "id": "BZ4X_ODO", "path": "Trips", "name": "Odometer", "max": 16777215, "unit": "kilometers", "suggestedMetric": "odometer", "formula": {
+    "op": "unit", "value": "BZ4X_ODO_RAW", "key": "BZ4X_ODO_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+  }},
+  { "id": "BZ4X_ODO_7D2", "path": "Trips", "name": "Odometer", "max": 16777215, "unit": "kilometers", "suggestedMetric": "odometer", "formula": {
+    "op": "unit", "value": "BZ4X_ODO_7D2_RAW", "key": "BZ4X_ODO_7D2_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+  }}
 ]
 }

@@ -1,23 +1,30 @@
 command_id: 7D2.7DA.220103|fc=1
 test_cases:
 - expected_values:
-    BZ4X_ODO_7D2: 44151
+    BZ4X_ODO_7D2_RAW: 44151
+    BZ4X_ODO_7D2_UNIT: KM
   response: 7DA076201030100AC77
 - expected_values:
-    BZ4X_ODO_7D2: 44152
+    BZ4X_ODO_7D2_RAW: 44152
+    BZ4X_ODO_7D2_UNIT: KM
   response: 7DA076201030100AC78
 - expected_values:
-    BZ4X_ODO_7D2: 44153
+    BZ4X_ODO_7D2_RAW: 44153
+    BZ4X_ODO_7D2_UNIT: KM
   response: 7DA076201030100AC79
 - expected_values:
-    BZ4X_ODO_7D2: 44154
+    BZ4X_ODO_7D2_RAW: 44154
+    BZ4X_ODO_7D2_UNIT: KM
   response: 7DA076201030100AC7A
 - expected_values:
-    BZ4X_ODO_7D2: 44155
+    BZ4X_ODO_7D2_RAW: 44155
+    BZ4X_ODO_7D2_UNIT: KM
   response: 7DA076201030100AC7B
 - expected_values:
-    BZ4X_ODO_7D2: 44156
+    BZ4X_ODO_7D2_RAW: 44156
+    BZ4X_ODO_7D2_UNIT: KM
   response: 7DA076201030100AC7C
 - expected_values:
-    BZ4X_ODO_7D2: 44157
+    BZ4X_ODO_7D2_RAW: 44157
+    BZ4X_ODO_7D2_UNIT: KM
   response: 7DA076201030100AC7D

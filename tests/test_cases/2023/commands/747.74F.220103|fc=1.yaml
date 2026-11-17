@@ -1,124 +1,150 @@
 command_id: 747.74F.220103|fc=1
 test_cases:
 - expected_values:
-    BZ4X_ODO: 9108
+    BZ4X_ODO_RAW: 9108
+    BZ4X_ODO_UNIT: MI
   response: 74F0762010302002394
 - expected_values:
-    BZ4X_ODO: 30464
+    BZ4X_ODO_RAW: 30464
+    BZ4X_ODO_UNIT: MI
   response: 74F0762010302007700
 - expected_values:
-    BZ4X_ODO: 30719
+    BZ4X_ODO_RAW: 30719
+    BZ4X_ODO_UNIT: MI
   response: 74F07620103020077FF
 - expected_values:
-    BZ4X_ODO: 32002
+    BZ4X_ODO_RAW: 32002
+    BZ4X_ODO_UNIT: MI
   response: 74F0762010302007D02
 - expected_values:
-    BZ4X_ODO: 31573
+    BZ4X_ODO_RAW: 31573
+    BZ4X_ODO_UNIT: MI
   response: |-
     7DF02010C
     74F0762010302007B55
 - expected_values:
-    BZ4X_ODO: 27940
+    BZ4X_ODO_RAW: 27940
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EA03410D00
     74F0762010302006D24
 - expected_values:
-    BZ4X_ODO: 30487
+    BZ4X_ODO_RAW: 30487
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EA03410D00
     74F0762010302007717
 - expected_values:
-    BZ4X_ODO: 31984
+    BZ4X_ODO_RAW: 31984
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EA03410D16
     74F0762010302007CF0
 - expected_values:
-    BZ4X_ODO: 30767
+    BZ4X_ODO_RAW: 30767
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EA03410D2A
     74F076201030200782F
 - expected_values:
-    BZ4X_ODO: 30468
+    BZ4X_ODO_RAW: 30468
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EA03410D69
     74F0762010302007704
 - expected_values:
-    BZ4X_ODO: 30624
+    BZ4X_ODO_RAW: 30624
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EA03410D7A
     74F07620103020077A0
 - expected_values:
-    BZ4X_ODO: 30497
+    BZ4X_ODO_RAW: 30497
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EA0441210000
     74F0762010302007721
 - expected_values:
-    BZ4X_ODO: 32033
+    BZ4X_ODO_RAW: 32033
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EA0641A60007DDD7
     74F0762010302007D21
 - expected_values:
-    BZ4X_ODO: 32035
+    BZ4X_ODO_RAW: 32035
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EA2100090000000000
     74F0762010302007D23
 - expected_values:
-    BZ4X_ODO: 31871
+    BZ4X_ODO_RAW: 31871
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EA2101310000000000
     74F0762010302007C7F
 - expected_values:
-    BZ4X_ODO: 31599
+    BZ4X_ODO_RAW: 31599
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EB0341463F
     74F0762010302007B6F
 - expected_values:
-    BZ4X_ODO: 27925
+    BZ4X_ODO_RAW: 27925
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EB0441311E4C
     74F0762010302006D15
 - expected_values:
-    BZ4X_ODO: 30481
+    BZ4X_ODO_RAW: 30481
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EE03410400
     74F0762010302007711
 - expected_values:
-    BZ4X_ODO: 32189
+    BZ4X_ODO_RAW: 32189
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EE03410400
     74F0762010302007DBD
 - expected_values:
-    BZ4X_ODO: 27915
+    BZ4X_ODO_RAW: 27915
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EE04410C0000
     74F0762010302006D0B
 - expected_values:
-    BZ4X_ODO: 30486
+    BZ4X_ODO_RAW: 30486
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EE04410C0000
     74F0762010302007716
 - expected_values:
-    BZ4X_ODO: 30847
+    BZ4X_ODO_RAW: 30847
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EE04410C0000
     74F076201030200787F
 - expected_values:
-    BZ4X_ODO: 31872
+    BZ4X_ODO_RAW: 31872
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EE04410C0000
     74F0762010302007C80
 - expected_values:
-    BZ4X_ODO: 32162
+    BZ4X_ODO_RAW: 32162
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EE04411F0086
     74F0762010302007DA2
 - expected_values:
-    BZ4X_ODO: 30629
+    BZ4X_ODO_RAW: 30629
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EE0441312ECE
     74F07620103020077A5
 - expected_values:
-    BZ4X_ODO: 27923
+    BZ4X_ODO_RAW: 27923
+    BZ4X_ODO_UNIT: MI
   response: |-
     7EE04414D0000
     74F0762010302006D13
