@@ -2,10 +2,7 @@ command_id: 7D2.7DA.221061|fc=1
 test_cases:
 - expected_values:
     BZ4X_SHIFT: P
-  response: 7DA056210610001
-- expected_values:
-    BZ4X_SHIFT: R
-  response: 7DA056210610202
+  response: 7DA056210610000
 - expected_values:
     BZ4X_SHIFT: D
   response: 7DA056210610608
@@ -31,6 +28,42 @@ test_cases:
     7EE04411F031D
     7DF020111
     7EE03411100
+- expected_values:
+    BZ4X_SHIFT: D
+  response: |-
+    7DA056210610608
+    7DF02010D
+    7EE03410D28
+    7EB03410D28
+    7EA03410D28
+    7DF02010D
+    7EE03410D28
+    7EB03410D28
+    7EA03410D28
+    7DF02010C
+    7EE04410C0000
+    7DF02010C
+    7EE04410C0000
+    7DF02010F
+    7EE03410F28
+    7DF02011F
+    7EE04411F023E
+    7DF020111
+    7EE03411100
+    7DF02010D
+    7EE03410D26
+    7EB03410D26
+    7EA03410D25
+    7DF020104
+    7EE03410400
+    7DF02010C
+    7EE04410C0000
+    7DF02011F
+    7EE04411F023E
+    7DF02010D
+    7EE03410D24
+    7EB03410D24
+    7EA03410D24
 - expected_values:
     BZ4X_SHIFT: D
   response: |-
@@ -93,11 +126,6 @@ test_cases:
     BZ4X_SHIFT: D
   response: |-
     7EB03410D00
-    7DA056210610608
-- expected_values:
-    BZ4X_SHIFT: D
-  response: |-
-    7EB03410D37
     7DA056210610608
 - expected_values:
     BZ4X_SHIFT: D
