@@ -13,9 +13,9 @@ test_cases:
     BZ4X_ODO_UNIT: MI
   response: 74F07620103020077FF
 - expected_values:
-    BZ4X_ODO_RAW: 32002
+    BZ4X_ODO_RAW: 32256
     BZ4X_ODO_UNIT: MI
-  response: 74F0762010302007D02
+  response: 74F0762010302007E00
 - expected_values:
     BZ4X_ODO_RAW: 31573
     BZ4X_ODO_UNIT: MI
