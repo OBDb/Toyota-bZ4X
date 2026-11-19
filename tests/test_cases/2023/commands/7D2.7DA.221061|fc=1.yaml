@@ -211,12 +211,27 @@ test_cases:
     7EA03410D23
     7DA056210610608
 - expected_values:
-    BZ4X_SHIFT: D
+    BZ4X_SHIFT: P
   response: |-
     7EB03410D00
-    7DA056210610608
+    7DA056210610001
 - expected_values:
     BZ4X_SHIFT: D
   response: |-
     7EB03410D3F
+    7DA056210610608
+- expected_values:
+    BZ4X_SHIFT: P
+  response: |-
+    7EB0341463B
+    7DA056210610001
+- expected_values:
+    BZ4X_SHIFT: D
+  response: |-
+    7EB2100290000000000
+    7DA056210610608
+- expected_values:
+    BZ4X_SHIFT: D
+  response: |-
+    7EE04410C0000
     7DA056210610608
