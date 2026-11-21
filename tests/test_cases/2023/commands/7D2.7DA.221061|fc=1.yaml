@@ -207,6 +207,16 @@ test_cases:
     BZ4X_SHIFT: D
   response: |-
     7DA056210610608
+    7DF020111
+    7EE03411100
+    7DF02010C
+    7EE04410C0000
+    7DF020104
+    7EE03410400
+- expected_values:
+    BZ4X_SHIFT: D
+  response: |-
+    7DA056210610608
     7DF02011F
     7EE04411F0688
     7DF02010F
@@ -292,6 +302,11 @@ test_cases:
   response: |-
     7EB0341463B
     7DA056210610001
+- expected_values:
+    BZ4X_SHIFT: D
+  response: |-
+    7EB04413109BE
+    7DA056210610608
 - expected_values:
     BZ4X_SHIFT: D
   response: |-
