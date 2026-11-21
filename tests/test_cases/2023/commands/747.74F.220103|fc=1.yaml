@@ -101,6 +101,12 @@ test_cases:
     7EE03410400
     74F0762010302007711
 - expected_values:
+    BZ4X_ODO_RAW: 32309
+    BZ4X_ODO_UNIT: MI
+  response: |-
+    7EE03410F28
+    74F0762010302007E35
+- expected_values:
     BZ4X_ODO_RAW: 27915
     BZ4X_ODO_UNIT: MI
   response: |-
