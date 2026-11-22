@@ -391,6 +391,17 @@ test_cases:
     BZ4X_ODO_7D2_UNIT: MI
   response: 7DA0762010302007D32
 - expected_values:
+    BZ4X_ODO_7D2_RAW: 32367
+    BZ4X_ODO_7D2_UNIT: MI
+  response: |-
+    7DA0762010302007E6F
+    7DF02011F
+    7EE04411F0B35
+    7DF02010F
+    7EE03410F28
+    7DF020111
+    7EE03411100
+- expected_values:
     BZ4X_ODO_7D2_RAW: 31985
     BZ4X_ODO_7D2_UNIT: MI
   response: |-

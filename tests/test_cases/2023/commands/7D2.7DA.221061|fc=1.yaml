@@ -285,6 +285,14 @@ test_cases:
     BZ4X_SHIFT: D
   response: |-
     7DA056210610608
+    7DF020111
+    7EE03411100
+    7DF02011F
+    7EE04411F0A10
+- expected_values:
+    BZ4X_SHIFT: D
+  response: |-
+    7DA056210610608
     7DF02011F
     7EE04411F0688
     7DF02010F
