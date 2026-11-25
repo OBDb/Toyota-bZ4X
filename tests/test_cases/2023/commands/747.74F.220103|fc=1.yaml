@@ -35,17 +35,11 @@ test_cases:
     7EA03410D00
     74F0762010302007717
 - expected_values:
-    BZ4X_ODO_RAW: 32424
+    BZ4X_ODO_RAW: 32432
     BZ4X_ODO_UNIT: MI
   response: |-
-    7EA03410D0F
-    74F0762010302007EA8
-- expected_values:
-    BZ4X_ODO_RAW: 31984
-    BZ4X_ODO_UNIT: MI
-  response: |-
-    7EA03410D16
-    74F0762010302007CF0
+    7EA03410D00
+    74F0762010302007EB0
 - expected_values:
     BZ4X_ODO_RAW: 30767
     BZ4X_ODO_UNIT: MI
@@ -131,11 +125,11 @@ test_cases:
     7EE04410C0000
     74F0762010302007C80
 - expected_values:
-    BZ4X_ODO_RAW: 32320
+    BZ4X_ODO_RAW: 32426
     BZ4X_ODO_UNIT: MI
   response: |-
     7EE04410C0000
-    74F0762010302007E40
+    74F0762010302007EAA
 - expected_values:
     BZ4X_ODO_RAW: 30629
     BZ4X_ODO_UNIT: MI
