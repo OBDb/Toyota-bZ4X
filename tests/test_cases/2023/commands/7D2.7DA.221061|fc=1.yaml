@@ -533,6 +533,16 @@ test_cases:
     7DA056210610608
     7DF020111
     7EE03411100
+    7DF02010D
+    7EE03410D32
+    7EB03410D32
+    7EA03410D32
+- expected_values:
+    BZ4X_SHIFT: D
+  response: |-
+    7DA056210610608
+    7DF020111
+    7EE03411100
     7DF02011F
     7EE04411F0A10
 - expected_values:
@@ -611,6 +621,12 @@ test_cases:
   response: |-
     7DA056210610608
     7DF02011F
+    7EE04411F0BC0
+- expected_values:
+    BZ4X_SHIFT: D
+  response: |-
+    7DA056210610608
+    7DF02011F
     7EE04411F19AF
 - expected_values:
     BZ4X_SHIFT: D
@@ -667,13 +683,48 @@ test_cases:
 - expected_values:
     BZ4X_SHIFT: D
   response: |-
-    7EB03410D6C
+    7EA03410D59
+    7DA056210610608
+    7DF02010C
+    7EE04410C0000
+    7DF02010C
+    7EE04410C0000
+    7DF02011F
+    7EE04411F07F8
+    7DF02010F
+    7EE03410F28
+    7DF02010D
+    7EE03410D58
+    7EB03410D58
+    7EA03410D58
+    7DF020111
+    7EE03411100
+    7DF02010C
+    7EE04410C0000
+    7DF020104
+    7EE03410400
+    7DF02011F
+    7EE04411F07F9
+    7DF02010D
+    7EE03410D56
+    7EA03410D56
+    7EB03410D56
+    7DF02010D
+    7EE03410D55
+    7EA03410D55
+    7EB03410D55
+    7DF02010C
+    7EE04410C0000
+- expected_values:
+    BZ4X_SHIFT: D
+  response: |-
+    7EA03415B7A
     7DA056210610608
 - expected_values:
-    BZ4X_SHIFT: P
+    BZ4X_SHIFT: D
   response: |-
-    7EB0341463B
-    7DA056210610001
+    7EA0641A6000807A4
+    7DA056210610608
 - expected_values:
     BZ4X_SHIFT: D
   response: |-
@@ -738,6 +789,26 @@ test_cases:
   response: |-
     7EE04410C0000
     7DA056210610608
+- expected_values:
+    BZ4X_SHIFT: D
+  response: |-
+    7EE04410C0000
+    7DA056210610608
+    7DF02011F
+    7EE04411F06D5
+    7DF02015B
+    7EA03415B97
+    7EB03415B97
+    7DF02010D
+    7EE03410D63
+    7EB03410D63
+    7EA03410D63
+    7DF02010C
+    7EE04410C0000
+    7DF020111
+    7EE03411100
+    7DF02010C
+    7EE04410C0000
 - expected_values:
     BZ4X_SHIFT: D
   response: |-
