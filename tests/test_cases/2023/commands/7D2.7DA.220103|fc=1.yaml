@@ -423,6 +423,19 @@ test_cases:
     7DF020104
     7EE03410400
 - expected_values:
+    BZ4X_ODO_7D2_RAW: 32693
+    BZ4X_ODO_7D2_UNIT: MI
+  response: |-
+    7DF02010C
+    7EE04410C0000
+    7DA0762010302007FB5
+    7DF02010C
+    7EE04410C0000
+    7DF02011F
+    7EE04411F0814
+    7DF020111
+    7EE03411100
+- expected_values:
     BZ4X_ODO_7D2_RAW: 31985
     BZ4X_ODO_7D2_UNIT: MI
   response: |-
