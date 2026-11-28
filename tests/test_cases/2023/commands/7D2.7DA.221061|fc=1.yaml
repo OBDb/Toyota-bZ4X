@@ -7,6 +7,12 @@ test_cases:
     BZ4X_SHIFT: P
   response: |-
     7DA056210610000
+    7DF02010C
+    7EE04410C0000
+- expected_values:
+    BZ4X_SHIFT: P
+  response: |-
+    7DA056210610000
     7DF02010D
     7EB03410D00
     7EA03410D00
@@ -589,6 +595,24 @@ test_cases:
     7EE04410C0000
     7DF020104
     7EE03410400
+- expected_values:
+    BZ4X_SHIFT: D
+  response: |-
+    7DA056210610608
+    7DF020111
+    7EE03411100
+    7DF02010C
+    7EE04410C0000
+    7DF020104
+    7EE03410400
+    7DF02011F
+    7EE04411F0503
+    7DF02010C
+    7EE04410C0000
+    7DF02010D
+    7EE03410D31
+    7EB03410D31
+    7EA03410D31
 - expected_values:
     BZ4X_SHIFT: D
   response: |-
